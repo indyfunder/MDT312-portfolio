@@ -1,0 +1,153 @@
+html, body, .page-container {
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    line-height: 1.5;
+}
+
+a {
+	color: #9F6;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+	color: #3CF;
+}
+
+p {
+    line-height: 1.7;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.highlight {
+    color: #fff351;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container-fluid{
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* .container-fluid {
+    max-width: 1860px;
+} */
+
+/* .circle {
+    position: absolute;
+    left: calc(50% - 10px);
+    bottom: -10px;
+    width: 20px;
+    height: 20px; 
+    background-color: white;
+    border-radius: 50%;
+} */
+
+/* .tm-border-bottom {
+    border-bottom: 1px solid white;
+    padding-bottom: 48px;
+}
+
+.tm-border-top {
+    border-top: 1px solid white;
+    padding-top: 48px;
+} */
+
+/* .content-pad {
+    padding: 40px 30px;
+} */
+
+/* .page-width-1 {
+    max-width: 810px;
+} */
+
+/* .page-width-2 {
+    max-width: 912px;
+} */
+
+/* .page-left {
+    margin-left: 100px;
+} */
+
+/* .page-right {
+    margin-right: 100px;
+    margin-left: auto;
+} */
+.intro-left {
+    margin-right: 20px;
+    padding: 30px 40px;
+    max-width: 505px;    
+}
+.intro-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* .intro-img-1 {
+    margin-bottom: 20px;
+} */
+.intro-img-1 {
+    margin-right: 4%;
+    margin-bottom: 0;
+    width: 30%
+}
+
+
+.tm-about-container {
+    border-top: 1px solid white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+
+
+#bg-video {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-image: url(../img/tm-astro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tm-mb-45 {
+    margin-bottom: 45px;
+}
+
+.tm-footer-right {
+    text-align: right;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 2.4rem;
+}
+
+.navbar {
+    margin-top: 15px;
+}
